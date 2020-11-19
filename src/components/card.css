@@ -1,0 +1,94 @@
+.cardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    width: 500px;
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 30px;
+    margin: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.discord {
+    background-image: url('../images/discord-clone.png');
+}
+
+.google {
+    background-image: url('../images/google-clone.png');
+}
+
+.batata {
+    background-image: url('../images/batata.png');
+}
+
+.futbol {
+    background-image: url('../images/futbol.png');
+}
+
+.hospital {
+    background-image: url('../images/hospital.png');
+}
+
+.card--hover {
+    display: none;
+}
+
+.card:hover .card--hover {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding: 10px;
+    background-color: rgba(12, 12, 12, 0.9);
+    border-radius: 30px;
+}
+
+.card img {
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+}
+
+.card img:hover {
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+}
+
+p {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 3rem;
+    font-family: 'Iceland', cursive;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.links__target {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+@media screen and (max-width:768px) {
+    .card {
+        width: 300px;
+        height: 200px;
+    }
+}

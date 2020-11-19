@@ -1,0 +1,20 @@
+footer {
+    height: 7vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    position: absolute;
+    width: 100%;
+}
+
+.social img {
+    width: 30px;
+    border-radius: 10px;
+    margin-left: 5px;
+}
+
+footer p {
+    color: white;
+    font-size: 1.5rem;
+}

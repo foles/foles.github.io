@@ -1,0 +1,51 @@
+main {
+    display: flex;
+    align-items: center;
+    min-height: 83vh;
+    width: 100%;
+    color: aliceblue;
+    justify-content: center;
+}
+
+main .about {
+    width: 70%;
+    text-align: justify;
+}
+
+.about h2 {
+    color: #20bbf8;
+    font-size: 3rem;
+}
+
+.about h3 {
+    color: #20bbf8;
+    font-size: 2.5rem;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.about p {
+    font-size: 2rem;
+}
+
+.about p .arroba {
+    color: #20bbf8;
+}
+
+.about img {
+    width: 40px;
+    margin-right: 10px;
+}
+
+.about img:hover {
+    width: 60px;
+}
+
+@media screen and (max-width:780px) {
+    .about {
+        flex-direction: column;
+    }
+    .about p {
+        font-size: 1.8rem;
+    }
+}

@@ -1,0 +1,11 @@
+.portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+h3 {
+    margin: 10px;
+    font-size: 2.5rem;
+    font-family: 'Inconsolata';
+}
