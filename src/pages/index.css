@@ -72,6 +72,9 @@
 }
 
 @media screen and (max-width:780px) {
+    .main {
+        background-position-x: 20%;
+    }
     .home {
         flex-direction: column;
     }

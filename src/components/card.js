@@ -130,20 +130,7 @@ function card() {
 
                     </div>
                     <h2>Gestión de Activos Fijos - Hospital</h2>
-                    <div className="links">
-                        <a className="links__target" target="_blank" href="https://github.com/foles/FutbolAlineaci-n_react-reduxt">
-                            <p>Repo </p>
-                            <img src={require('../images/github.png')} alt="" />
-                        </a>
 
-
-                        <a className="links__target" target="_blank" href="https://foles.github.io/FutbolAlineaci-n_react-redux/">
-                            <p>Link </p>
-                            <img src={require('../images/link.png')} alt="" />
-                        </a>
-
-
-                    </div>
                 </div>
 
             </div>
